@@ -35,6 +35,7 @@ if __name__ == '__main__':
     test_cases += loadFromFile("./Zscore - B.csv")
     test_cases += loadFromFile("./Zscore - C.csv")
     test_cases += loadFromFile("./Zscore - D.csv")
+    test_cases += loadFromFile("./tests.csv")
 
     for (i,t) in enumerate(test_cases):
         test_name = f"test_{i}"
