@@ -9,7 +9,6 @@ def loadFromFile(filename):
     test_cases = []
     with open(filename, newline='') as csvfile:
         reader = csv.reader(csvfile)
-        next(reader)  # Skip header
         for row in reader:
             test_cases.append(row)
     return test_cases
