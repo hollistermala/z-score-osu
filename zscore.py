@@ -108,6 +108,7 @@ def z_score(x, mu, sigma):
     """
     
     # Participating group member names go in this comment              
+    # Hollister Mala
 
     # Your code goes between this comment and the return statement
     
